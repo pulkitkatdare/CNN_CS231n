@@ -6,4 +6,8 @@ For a beginner starting with neural networks and deep learning should definitely
 1. [svm.ipynb](Assignment1/svm.ipynb): takes you through the svm classifier </br> 
 1. [softmax.ipynb](Assignment1/softmax.ipynb): This assignment is more oriented towards softmax classifier. The advantage of the softmax classifier is a smooth and differentiable which is why it is advantageous over SVM
 1. [two\_layer\_net.ipynb](Assignment1/two_layer_net.ipynb): This assignment walks through building a neural network(two layered) to build your initial classifier
+1. [features.ipynb](Assignment1/features.ipynb): This assignment asks you to directly input the useful data to the network like the image histogram which improves the accuracy of the network
 
+## Assignment 2 
+1. [FullyConnectedNets.ipynb](Assignment2/FullyConnectedNets.ipynb): This assignment asks to create a general **n** layered neural network. This taks is slighly more difficult than the previous two layered model because of an abstraction associated with it. If you want to learn backprop algorithm thoroughly, this is the part of the assignment that you should do
+1. [BatchNormalization.ipynb](Assignment2/BatchNormalization.ipynb): This assignment has one single objective i.e to implement a batch normalization in each and every one of the layers in neural networks. It does look easy but believe me it is not! batchnormalization essentially makes the mean zero and variance one before an input is given to each layer of the network. This simple idea makes the backprop calculations very messy(if not difficult) 
