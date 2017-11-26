@@ -10,4 +10,10 @@ For a beginner starting with neural networks and deep learning should definitely
 
 ## Assignment 2 
 1. [FullyConnectedNets.ipynb](Assignment2/FullyConnectedNets.ipynb): This assignment asks to create a general **n** layered neural network. This taks is slighly more difficult than the previous two layered model because of an abstraction associated with it. If you want to learn backprop algorithm thoroughly, this is the part of the assignment that you should do
-1. [BatchNormalization.ipynb](Assignment2/BatchNormalization.ipynb): This assignment has one single objective i.e to implement a batch normalization in each and every one of the layers in neural networks. It does look easy but believe me it is not! batchnormalization essentially makes the mean zero and variance one before an input is given to each layer of the network. This simple idea makes the backprop calculations very messy(if not difficult) 
+1. [BatchNormalization.ipynb](Assignment2/BatchNormalization.ipynb): This assignment has one single objective i.e to implement a batch normalization in each and every one of the layers in neural networks. It does look easy but believe me it is not! batchnormalization essentially makes the mean zero and variance one before an input is given to each layer of the network. This simple idea makes the backprop calculations very messy(if not difficult)
+1. [Dropout.ipynb](Assignment2/Dropout.ipynb): Implements a dropout layer, accuracy slightly increases(though i wouldn't recommend it)
+1. [ConvolutionalNetworks.ipynb](Assignment2/ConvolutionalNetworks.ipynb): This is the main point of the course. It essentially asks you to implement the convolutional networks(Observe the change in accuracy from the initial deep networks that were created) 
+
+## Assignment 3 
+1. [RNN\_Captioning.ipynb](Assignment3/RNN_Captioning.ipynb): Helps understand RNNs(loosely speaking they are temporal neural nets) and implement a simple image captioning. Works well but not ground breaking results. 
+1. [LSTM\_Captioning.ipynb](Assignment3/LSTM\_Captioning.ipynb): Slightly different versions of RNNs(used more extensively in the community) gives slightly better results than RNN implementation.   
